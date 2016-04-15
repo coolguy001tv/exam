@@ -1,0 +1,105 @@
+@charset "UTF-8";
+body{
+  font-size:20px;
+}
+.center{
+  text-align: center;
+}
+.head{
+  background: #2b7ad8;
+  color:#fff;
+  .name{
+    padding-top:24px;
+    margin-bottom:8px;
+    text-align: center;
+    .user{
+      font-size:20px;
+      height: 20px;
+      display: inline-block;
+      margin-left: 8px;
+    }
+  }
+  .user_icon{
+    background: url("../image/user.png") no-repeat;
+    width: 20px;
+    height:20px;
+    display:inline-block;
+    background-size: contain;
+  }
+  .score{
+    font-size: 60px;
+    margin-top:8px;
+    text-align: center;
+  }
+  .batch{
+    text-align: center;
+    background: #4a8ddd;
+    padding:4px 14px;
+    border-radius: 12px;
+  }
+  .info-outer{
+    font-size:12px;
+    padding: 24px 28px 16px;
+  }
+}
+.line{
+  .line-outer{
+    border-bottom:1px solid #d5d5d5;
+  }
+  li{
+    border-bottom:1px solid #d5d5d5;
+    border-left:1px solid #d5d5d5;
+    margin:0 0 0 30px;
+    list-style: none;
+    position: relative;
+    padding-top:24px;
+    padding-left:16px;
+    font-size:14px;
+    color:#979595;
+    &:last-child{
+      border-bottom: none;
+    }
+    p{
+      margin-bottom: 0;
+    }
+    p.desc{
+      padding-bottom:6px;
+      margin-left:18px;
+    }
+    p.score{
+      font-weight:bold;
+      color:#222;
+      padding-bottom:12px;
+      margin-left:18px;
+    }
+    .blue{
+      background: url("../image/list-blue.png") no-repeat;
+      background-size: contain;
+      display: block;
+      position: absolute;
+      left: -7px;
+      top:30px;
+      width:14px;
+      height: 14px;
+    }
+    .green{
+      background: url("../image/list-green.png") no-repeat;
+      background-size: contain;
+      display: block;
+      position: absolute;
+      left: -7px;
+      top:30px;
+      width:14px;
+      height: 14px;
+    }
+  }
+}
+.foot{
+  padding:0 32px 8px;
+  text-align: center;
+  .tip{
+    margin-top:8px;
+    color:#22c603;
+    font-size:14px;
+  }
+}

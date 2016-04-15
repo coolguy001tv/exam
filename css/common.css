@@ -1,0 +1,18 @@
+.btn {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  width: 100%;
+  color: #fff;
+  border: none; }
+  .btn:active {
+    color: #fff; }
+  .btn:hover {
+    color: #fff; }
+
+.green {
+  background: #22c603; }
+
+/*# sourceMappingURL=common.css.map */
