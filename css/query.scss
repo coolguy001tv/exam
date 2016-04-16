@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.small-pic{
+  width: 20px;
+  height: 20px;
+  display:block;
+  margin-left:16px;
+  margin-right:16px;
+  margin-top:10px;
+}
+.sign-no{
+  background: url("../image/sign-no.png") no-repeat;
+  background-size: contain;
+}
+.exam-no{
+  background: url("../image/exam-no.png") no-repeat ;
+  background-size: contain;
+}
+.id-no{
+  background: url("../image/id-no.png") no-repeat;
+  background-size: contain;
+}
+.one-line{
+  height:44px;
+  line-height: 44px;
+  border-bottom: 1px solid #d5d5d5;
+  input{
+    border:none;
+    &:focus,&:active,&:hover{
+      border:none;
+    }
+    font-size:16px;
+    color:#262626;
+  }
+}
+.search{
+  margin-top:24px;
+  padding:0 16px;
+}

@@ -15,15 +15,13 @@ body{
     .user{
       font-size:20px;
       height: 20px;
-      display: inline-block;
       margin-left: 8px;
     }
   }
   .user_icon{
-    background: url("../image/user.png") no-repeat;
     width: 20px;
     height:20px;
-    display:inline-block;
+    vertical-align: text-bottom;
     background-size: contain;
   }
   .score{

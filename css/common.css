@@ -12,7 +12,23 @@
   .btn:hover {
     color: #fff; }
 
+ul {
+  list-style: none; }
+
 .green {
   background: #22c603; }
+
+.blue {
+  background: #2b7ad8; }
+  .blue:active {
+    background: #91b9e8; }
+
+.dp-f {
+  display: -webkit-flex;
+  display: flex; }
+
+.flex1 {
+  flex: 1;
+  -webkit-flex: 1; }
 
 /*# sourceMappingURL=common.css.map */

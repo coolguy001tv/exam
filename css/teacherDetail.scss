@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.info{
+  padding-top:32px;
+  padding-bottom:40px;
+  background: #2b7ad8;
+  color:#fff;
+}
+.teacher-pic{
+  width:54px;
+  height: 54px;
+  border-radius: 4px;
+  margin:0 12px 0 16px;
+}
+.teacher-name{
+  font-size:20px;
+}
+.icon{
+  height:15px;
+  width:15px;
+  display: inline-block;
+  margin-right:4px;
+}
+.score-icon{
+  background: url("../image/star-d.png") no-repeat;
+  background-size: contain;
+}
+.zhao-icon{
+  background: url("../image/zhao-d.png") no-repeat;
+  background-size: contain;
+}
+.hit-icon{
+  background: url("../image/hit-d.png") no-repeat;
+  background-size: contain;
+}
+.score,.year{
+  font-size:16px;
+}
+.money{
+  font-size:16px;
+
+}
+#price{
+  margin-top: 4px;
+  margin-right: 16px;
+}
+#consult{
+  height: 40px;
+  line-height: 40px;
+  font-size:20px;
+  background:#22c603;
+  color:#fff;
+  text-align: center;
+
+}
+.title{
+  height:34px;
+  line-height: 34px;
+  padding-left: 16px;
+  border-bottom:1px solid #ebebeb;
+  color:#222;
+  font-size:13px;
+  .title-icon{
+    width:10px;
+    height:10px;
+    background: url("../image/light-blue-o.png");
+    background-size: contain;
+    display: inline-block;
+    margin-right:8px;
+  }
+}
+.detail{
+  border-bottom:1px solid #ebebeb;
+  .content{
+    margin:10px 24px 26px 16px;
+    color:#222;
+    font-size:14px;
+  }
+}
+.article{
+  border-top:1px solid #ebebeb;
+  margin-top:16px;
+  li{
+    border-bottom:1px solid #ebebeb;
+    height: 44px;
+    line-height: 44px;
+    padding-left:16px;
+    margin-bottom:0;
+    position: relative;
+    a{
+      color:#222;
+      text-decoration: none;
+      &:active{
+        color:#222;
+      }
+    }
+
+
+  }
+}
+.hot{
+  background: url("../image/hot.png") no-repeat;
+  background-size:contain ;
+  width:43px;
+  height:18px;
+  position: absolute;
+  right: 0;
+  top:13px;
+}
+.right{
+  background: url("../image/right.png") no-repeat;
+  background-size:contain ;
+  width:8px;
+  height:13px;
+  position: absolute;
+  right: 10px;
+  top:16px;
+}

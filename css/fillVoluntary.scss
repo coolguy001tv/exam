@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.swiper{
+  min-height: 224px;
+  width: 100%;
+}
+
+.teacher-list{
+
+}
+.one-teacher{
+  margin:16px 0 16px 0;
+  border-bottom: 1px solid #e7e7e7;
+  .teacher-pic{
+    width:54px;
+    height: 54px;
+    border-radius: 4px;
+    margin:0 12px 0 16px;
+  }
+  .teacher-name{
+    color:#222;
+    font-size:20px;
+  }
+  .teacher-desc{
+    margin-left: 12px;
+    color:#999;
+    font-size:16px;
+  }
+  .icon{
+    height:15px;
+    width:15px;
+    display: inline-block;
+    margin-right:4px;
+  }
+  .score-icon{
+    background: url("../image/star.png") no-repeat;
+    background-size: contain;
+  }
+  .zhao-icon{
+    background: url("../image/zhao.png") no-repeat;
+    background-size: contain;
+  }
+  .money-icon{
+    margin-left:4px;
+    margin-right:0;
+    background: url("../image/money.png") no-repeat;
+    background-size: contain;
+  }
+  .score,.year{
+    color:#262626;
+    font-size:16px;
+  }
+  .money{
+    color:#2b7ad8;
+    font-size:16px;
+  }
+  .hit{
+    background: url("../image/hit.png") no-repeat;
+    background-size: contain;
+    height: 51px;
+    width:44px;
+    position: relative;
+  }
+  .hit-percent{
+    position: absolute;
+    top:10px;
+    left:8px;
+    color:#22c603;
+  }
+  .detail{
+    margin-left:16px;
+    margin-bottom: 16px;
+    color:#999;
+    &:active{
+      background: #f0c6cb;
+    }
+  }
+
+}
