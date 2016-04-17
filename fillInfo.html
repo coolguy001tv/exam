@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="format-detection" content="telephone=no">
+    <title>填写考生信息</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/fillInfo.css">
+
+</head>
+<body>
+<div id="base">
+    <ul>
+        <li class="common_row dp-f">
+            <span>考生类型</span>
+            <span class="content flex1">文科</span>
+            <i class="right"></i>
+        </li>
+        <li class="common_row dp-f" id="sectionWrapper">
+            <span>所在地区</span>
+            <span class="content flex1 active" id="selectedSection">四川-成都</span>
+            <i class="right"></i>
+        </li>
+        <li class="common_row dp-f">
+            <span>高考成绩</span>
+            <input type="text" id="exam-score" class="content active input"/>
+        </li>
+    </ul>
+</div>
+<div id="no">
+    <ul>
+        <li class="common_row dp-f">
+            <span>报名号</span>
+            <input type="text" id="sign-no" class="content active input" placeholder="未填写">
+
+        </li>
+        <li class="common_row dp-f">
+            <span>考号</span>
+            <input type="text" id="exam-no" class="content active input" placeholder="未填写">
+
+        </li>
+        <li class="common_row dp-f">
+            <span>身份证号</span>
+            <input type="text" id="id-no" class="content active input" placeholder="未填写">
+
+        </li>
+    </ul>
+</div>
+<div id="prefer">
+    <ul>
+        <li class="common_row dp-f">
+            <span>意向省份</span>
+            <span class="content flex1">四川</span>
+            <i class="right"></i>
+        </li>
+        <li class="common_row dp-f">
+            <span>选择第一意向专业</span>
+            <span class="content flex1">未填写</span>
+            <i class="right"></i>
+        </li>
+        <li class="common_row dp-f">
+            <span>选择第二意向专业</span>
+            <span class="content flex1">未填写</span>
+            <i class="right"></i>
+        </li>
+        <li class="common_row dp-f">
+            <span>选择第三意向专业</span>
+            <span class="content flex1">未填写</span>
+            <i class="right"></i>
+        </li>
+    </ul>
+</div>
+<div class="next">
+    <button class="btn blue">下一步</button>
+</div>
+<script src="js/mobile.pure.js"></script>
+<script src="js/common.js"></script>
+<script src="js/fillInfo.js"></script>
+</body>
+</html>

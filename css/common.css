@@ -31,4 +31,62 @@ ul {
   flex: 1;
   -webkit-flex: 1; }
 
+.common_row {
+  border-bottom: 1px solid #ebebeb;
+  height: 44px;
+  line-height: 44px;
+  padding-left: 16px;
+  margin-bottom: 0;
+  position: relative; }
+  .common_row span {
+    min-width: 80px; }
+  .common_row .content {
+    text-align: right;
+    margin-right: 22px;
+    color: #979595;
+    font-size: 14px; }
+    .common_row .content.active {
+      color: #2b7ad8;
+      font-size: 17px; }
+  .common_row .hot {
+    background: url("../image/hot.png") no-repeat;
+    background-size: contain;
+    width: 43px;
+    height: 18px;
+    position: absolute;
+    right: 0;
+    top: 13px; }
+  .common_row .right {
+    background: url("../image/right.png") no-repeat;
+    background-size: contain;
+    width: 8px;
+    height: 13px;
+    position: absolute;
+    right: 10px;
+    top: 16px; }
+  .common_row .unchecked {
+    background: url("../image/uncheck.png") no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 10px;
+    top: 10px; }
+  .common_row .checked {
+    background: url("../image/check.png") no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 10px;
+    top: 10px; }
+  .common_row .input {
+    border: none;
+    padding: 0;
+    height: 44px;
+    line-height: 44px;
+    width: 80%; }
+    .common_row .input:focus {
+      border: none; }
+
 /*# sourceMappingURL=common.css.map */

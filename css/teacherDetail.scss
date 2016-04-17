@@ -80,12 +80,7 @@
   border-top:1px solid #ebebeb;
   margin-top:16px;
   li{
-    border-bottom:1px solid #ebebeb;
-    height: 44px;
-    line-height: 44px;
-    padding-left:16px;
-    margin-bottom:0;
-    position: relative;
+
     a{
       color:#222;
       text-decoration: none;
@@ -96,22 +91,4 @@
 
 
   }
-}
-.hot{
-  background: url("../image/hot.png") no-repeat;
-  background-size:contain ;
-  width:43px;
-  height:18px;
-  position: absolute;
-  right: 0;
-  top:13px;
-}
-.right{
-  background: url("../image/right.png") no-repeat;
-  background-size:contain ;
-  width:8px;
-  height:13px;
-  position: absolute;
-  right: 10px;
-  top:16px;
 }

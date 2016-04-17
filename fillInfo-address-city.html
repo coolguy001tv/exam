@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="format-detection" content="telephone=no">
+    <title>省市名</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/address.css">
+
+</head>
+<body>
+<div class="common_row dp-f fix" id="selected">
+    <span>当前已选</span>
+    <span class="content flex1" id="selectedValue"></span>
+</div>
+
+<div id="city" class="jsonList"></div>
+<script type="text/html" id="cityListModule">
+    <ul>
+        {{each list as value}}
+        <li class="common_row dp-f" id="city-{{value.code}}" code="{{value.code}}">
+            <span class="name">{{value.name}}</span>
+            <!--当前是否选中-->
+            <span class="content flex1"></span>
+            <i class="right"></i>
+        </li>
+        {{/each}}
+    </ul>
+</script>
+<script src="js/mobile.pure.js"></script>
+<script src="js/template.js"></script>
+<script src="js/common.js"></script>
+<script src="js/chinaLocation.js"></script>
+<script src="js/address.js"></script>
+</body>
+</html>
