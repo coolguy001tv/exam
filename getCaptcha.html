@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="format-detection" content="telephone=no">
+    <title>填写手机号</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/query.css">
+
+</head>
+<body>
+<div class="dp-f one-line">
+    <div class=" mobile small-pic"></div>
+    <div class="flex1">
+        <input type="text" id="mobileNo" placeholder="请输入手机号">
+    </div>
+</div>
+<div class="dp-f one-line">
+    <div class="captcha small-pic"></div>
+    <div class="flex1">
+        <input type="text" id="captchaNo" placeholder="请输入验证码">
+    </div>
+    <div id="getCaptcha" class="getCaptcha">
+        获取验证码
+    </div>
+
+</div>
+<div class="search">
+    <button class="btn blue disabled"  id="confirm">确定</button>
+</div>
+
+<script src="js/mobile.pure.js"></script>
+<script src="js/common.js"></script>
+<script src="js/getCaptcha.js"></script>
+</body>
+</html>

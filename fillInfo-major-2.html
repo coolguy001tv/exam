@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="format-detection" content="telephone=no">
+    <title>请选择意向专业</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/fillInfo.css">
+
+</head>
+<body>
+<div class="type-tip">
+    最多选择3项
+</div>
+<ul>
+    <li class="common_row dp-f">
+    <span>会计</span>
+    <i class="checked"></i>
+    </li>
+    <li class="common_row dp-f">
+        <span>会计</span>
+        <i class="unchecked"></i>
+    </li>
+</ul>
+
+
+<div class="next">
+    <button class="btn blue" id="confirm">确定</button>
+</div>
+<!--主专业1,次专业2-->
+<input type="hidden" id="majorType" value="1">
+<!--<script type="text/html" id="listModule">-->
+    <!--<ul>-->
+        <!--{{each list as value i}}-->
+        <!--&lt;!&ndash;<li class="common_row dp-f">&ndash;&gt;-->
+            <!--&lt;!&ndash;<span>会计</span>&ndash;&gt;-->
+            <!--&lt;!&ndash;<i class="checked"></i>&ndash;&gt;-->
+        <!--&lt;!&ndash;</li>&ndash;&gt;-->
+        <!--<li class="common_row dp-f">-->
+            <!--<span>会计</span>-->
+            <!--<i class="unchecked"></i>-->
+        <!--</li>-->
+        <!--{{/each}}-->
+    <!--</ul>-->
+<!--</script>-->
+<script src="js/mobile.pure.js"></script>
+<script src="js/template.js"></script>
+<script src="js/common.js"></script>
+<script src="js/fillInfo-major-2.js"></script>
+</body>
+</html>

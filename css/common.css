@@ -22,6 +22,21 @@ ul {
   background: #2b7ad8; }
   .blue:active {
     background: #91b9e8; }
+  .blue.disabled {
+    background: #2c7cd7;
+    opacity: 0.5; }
+    .blue.disabled:active, .blue.disabled:focus {
+      background: #2c7cd7;
+      opacity: 0.5; }
+
+.white-blue {
+  background: #f8f8f8;
+  color: #2b7ad8;
+  border: 1px solid #2b7ad8; }
+  .white-blue:active, .white-blue:focus {
+    background: #f8f8f8;
+    border: 1px solid #2b7ad8;
+    color: #2b7ad8; }
 
 .dp-f {
   display: -webkit-flex;

@@ -19,6 +19,14 @@
   background: url("../image/id-no.png") no-repeat;
   background-size: contain;
 }
+.captcha{
+  background: url("../image/captcha.png") no-repeat;
+  background-size: contain;
+}
+.mobile{
+  background: url("../image/mobile.png") no-repeat;
+  background-size: contain;
+}
 .one-line{
   height:44px;
   line-height: 44px;
@@ -35,4 +43,20 @@
 .search{
   margin-top:24px;
   padding:0 16px;
+}
+
+.getCaptcha{
+  color:#22c603;
+  font-size:16px;
+  border-left: 1px solid #22c603;
+  margin:8px 0;
+  padding:0 16px;
+  height: 28px;
+  line-height:28px;
+  &.disabled{
+    color:#d5d5d5;
+  }
+}
+input#captchaNo{
+  width:130px;//不知道为什么，不设置这个的宽度会导致后侧文字下移
 }

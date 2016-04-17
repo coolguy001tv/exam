@@ -28,6 +28,24 @@ ul{
   &:active{
     background: #91b9e8;
   }
+  &.disabled{
+    background: #2c7cd7;
+    opacity: 0.5;
+    &:active,&:focus{
+      background: #2c7cd7;
+      opacity: 0.5;
+    }
+  }
+}
+.white-blue{
+  background: #f8f8f8;
+  color:#2b7ad8;
+  border:1px solid #2b7ad8;
+  &:active,&:focus{
+    background: #f8f8f8;
+    border:1px solid #2b7ad8;
+    color:#2b7ad8;
+  }
 }
 
 .dp-f{

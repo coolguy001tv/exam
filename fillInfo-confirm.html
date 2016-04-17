@@ -6,7 +6,7 @@
     <meta content="yes" name="apple-touch-fullscreen">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta name="format-detection" content="telephone=no">
-    <title>填写考生信息</title>
+    <title>资料确认</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/common.css">
@@ -19,16 +19,14 @@
         <li class="common_row dp-f" id="typeWrapper">
             <span>考生类型</span>
             <span class="content flex1" id="selectedType">文科</span>
-            <i class="right"></i>
         </li>
         <li class="common_row dp-f" id="sectionWrapper">
             <span>所在地区</span>
             <span class="content flex1 active" id="selectedSection">四川-成都</span>
-            <i class="right"></i>
         </li>
         <li class="common_row dp-f">
             <span>高考成绩</span>
-            <input type="text" id="exam-score" class="content active input"/>
+            <span class="content flex1 active" id="examScore">456</span>
         </li>
     </ul>
 </div>
@@ -36,18 +34,15 @@
     <ul>
         <li class="common_row dp-f">
             <span>报名号</span>
-            <input type="text" id="sign-no" class="content active input" placeholder="未填写">
-
+            <span class="content flex1 active">456</span>
         </li>
         <li class="common_row dp-f">
             <span>考号</span>
-            <input type="text" id="exam-no" class="content active input" placeholder="未填写">
-
+            <span class="content flex1 active">456</span>
         </li>
         <li class="common_row dp-f">
             <span>身份证号</span>
-            <input type="text" id="id-no" class="content active input" placeholder="未填写">
-
+            <span class="content flex1 active">5090101010101010102</span>
         </li>
     </ul>
 </div>
@@ -56,30 +51,27 @@
         <li class="common_row dp-f" id="wishedProvinceWrapper">
             <span>意向省份</span>
             <span class="content flex1" id="wishedProvince">未填写</span>
-            <i class="right"></i>
         </li>
         <li class="common_row dp-f" id="wishedMajorWrapper1">
             <span>选择第一意向专业</span>
             <span class="content flex1">未填写</span>
-            <i class="right"></i>
         </li>
         <li class="common_row dp-f" id="wishedMajorWrapper2">
             <span>选择第二意向专业</span>
             <span class="content flex1">未填写</span>
-            <i class="right"></i>
         </li>
         <li class="common_row dp-f" id="wishedMajorWrapper3">
             <span>选择第三意向专业</span>
             <span class="content flex1">未填写</span>
-            <i class="right"></i>
         </li>
     </ul>
 </div>
-<div class="next">
-    <button class="btn blue" id="next">下一步</button>
+<div class="next dp-f" id="confirmWrapper">
+    <button class="btn white-blue flex1" id="pre">修改</button>
+    <button class="btn blue flex1" id="confirm">确认</button>
 </div>
 <script src="js/mobile.pure.js"></script>
 <script src="js/common.js"></script>
-<script src="js/fillInfo.js"></script>
+<script src="js/fillInfo-confirm.js"></script>
 </body>
 </html>

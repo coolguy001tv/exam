@@ -6,6 +6,8 @@ $(function(){
 });
 
 var address = {
+    fillCityUrl:'fillInfo-address-city.html',
+    fillInfoUrl:'fillInfo.html',
     init:function(){
         this.domEvent();
 
@@ -44,6 +46,7 @@ var address = {
         $("#"+sectionId).html(html);
     }
     ,handleProvince:function(){
+        var _this = this;
         this.fillRow(chinaLocation.data,"province");//用省份填充数据
         if(sessionStorage['cityName']){
             $("#selectedValue").text(sessionStorage['provinceName']+'-'+sessionStorage['cityName']);
@@ -53,12 +56,14 @@ var address = {
         $(document).on("tap","#province .common_row",function(){
             var code = $(this).attr("code");
             //var name = $(this).find(".name").text();
-            window.location.href = "fillInfo-address-city.html?code="+code;
+            window.location.href = _this.fillCityUrl+"?code="+code;
         })
     }
     ,handleCity:function(code){
+        var _this =this;
         var province = this.getProvinceObj(code);
         $("#selectedValue").text(province.name);
+        $("title").text(province.name);
         if(!province){
             console.error("找不到当前省",province);
         }
@@ -71,7 +76,7 @@ var address = {
             sessionStorage['cityCode'] = cityCode;
             sessionStorage['provinceName'] = province.name;
             sessionStorage['cityName'] = $(this).find(".name").text();
-            window.location.href = "fillInfo.html";
+            window.location.href = _this.fillInfoUrl;
         });
     }
 
