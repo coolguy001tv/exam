@@ -23,6 +23,9 @@ ul{
 .green{
   background:#22c603;
 }
+.text-green{
+  color:#22c603;
+}
 .blue{
   background: #2b7ad8;
   &:active{
@@ -36,6 +39,9 @@ ul{
       opacity: 0.5;
     }
   }
+}
+.text-blue{
+  color:#2b7ad8;
 }
 .white-blue{
   background: #f8f8f8;
@@ -125,3 +131,7 @@ ul{
   }
 }
 
+
+.m16{
+  margin:16px;
+}

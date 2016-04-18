@@ -18,6 +18,9 @@ ul {
 .green {
   background: #22c603; }
 
+.text-green {
+  color: #22c603; }
+
 .blue {
   background: #2b7ad8; }
   .blue:active {
@@ -28,6 +31,9 @@ ul {
     .blue.disabled:active, .blue.disabled:focus {
       background: #2c7cd7;
       opacity: 0.5; }
+
+.text-blue {
+  color: #2b7ad8; }
 
 .white-blue {
   background: #f8f8f8;
@@ -103,5 +109,8 @@ ul {
     width: 80%; }
     .common_row .input:focus {
       border: none; }
+
+.m16 {
+  margin: 16px; }
 
 /*# sourceMappingURL=common.css.map */

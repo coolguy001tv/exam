@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+.head{
+  width: 100%;
+  background: #2b7ad8;
+  padding-top:24px;
+  padding-bottom:18px;
+  color:#fff;
+  font-size:14px;
+}
+.icon{
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.order-success{
+  background: url("../image/order-success.png") no-repeat;
+  background-size: contain;
+
+}
+.order-finish{
+  background: url("../image/order-finish.png") no-repeat;
+  background-size: contain;
+}
+.order-accept{
+  background: url("../image/order-accept.png") no-repeat;
+  background-size: contain;
+}
+.status{
+  text-align: center;
+}
+#statusText{
+  font-size:20px;
+  margin-bottom: 4px;
+  margin-left:8px;
+}
+#statusDetail{
+  text-align: center;
+
+  margin-top:8px;
+}
+.statusBar{
+  width:291px;
+  height: 26px;
+  margin: 14px auto 10px;
+  &.bar1{
+    background: url("../image/step1.png") no-repeat;
+    background-size: contain;
+  }
+  &.bar2{
+    background: url("../image/step2.png") no-repeat;
+    background-size: contain;
+  }
+  &.bar3{
+    background: url("../image/step3.png") no-repeat;
+    background-size: contain;
+  }
+}
+#statusDescription{
+  text-align: center;
+}
+.wordDesc{
+
+}
+.time{
+  color:#FFF;
+  opacity: 0.5;
+}
+.one-teacher{
+  height: 60px;
+  line-height:60px;
+  border-bottom: 1px solid #ebebeb;
+  .teacher-pic{
+    height: 54px;
+    margin-top:2px;
+  }
+  .name{
+    font-size:16px;
+    color:#222222;
+    margin-left: 10px;
+  }
+  .right{
+    top:24px;
+  }
+  .comment{
+    position: absolute;
+    right: 0;
+    color:#979595;
+    font-size:14px;
+  }
+
+}
+.footer{
+  position: fixed;
+  bottom:32px;
+  left:0;
+  right: 0;
+  font-size:13px;
+  text-align: center;
+
+  .company{
+    color:#979595;
+    margin: 0 auto;
+  }
+  .tel{
+    display: block;
+    color:#222222;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+}
+.advice{
+  font-size:18px;
+  color:#222;
+  padding-left:16px;
+  height: 46px;
+  line-height: 46px;
+  border-bottom:1px solid #d5d5d5;
+
+}
+.advices{
+
+  margin-left:16px;
+  border-left: 1px solid #d5d5d5;
+  border-bottom:1px solid #d5d5d5;
+  position: relative;
+  .title{
+    margin: 0 18px 4px;
+    padding-top:8px;
+    font-size:14px;
+    i{
+
+      width:7px;
+      height: 7px;
+      position: absolute;
+      left:-4px;
+      top:14px;
+    }
+    &.text-blue i{
+      background: url("../image/list-blue.png") no-repeat;
+      background-size: contain;
+    }
+    &.text-green i{
+      background: url("../image/list-green.png") no-repeat;
+      background-size: contain;
+    }
+  }
+
+  ul{
+    margin-bottom:18px;
+  }
+  li{
+    margin:4px 18px 0;
+    font-size:16px;
+  }
+}
+
+
+//订单列表
+#empty{
+  text-align: center;
+  margin:0 auto;
+}
+.no-order{
+  margin-top:19px;
+  margin-bottom:34px;
+  color: #979597;
+  font-size:14px;
+
+}
+.no-list-pic{
+  margin-top:18px;
+  background: url("../image/empty-list.png") no-repeat;
+  background-size: contain;
+  width:200px;
+}
+.no-list-desc{
+  margin-top:-18px;
+  font-size:12px;
+}
