@@ -17,19 +17,21 @@
 <div class="satisfy dp-f">
     <div class="title">满意度</div>
     <div class="stars">
-        <span class="star active"></span>
-        <span class="star active"></span>
-        <span class="star active"></span>
-        <span class="star active"></span>
-        <span class="star active"></span>
+        <span class="star "></span>
+        <span class="star "></span>
+        <span class="star "></span>
+        <span class="star "></span>
+        <span class="star "></span>
     </div>
 </div>
 <div class="row">
-    <textarea name="comment" id="comment" placeholder="请写下你的感受吧，对其他人帮助很大哦~" disabled></textarea>
+    <textarea name="comment" id="comment" placeholder="请写下你的感受吧，对其他人帮助很大哦~"></textarea>
 </div>
 <div class="row commitWrapper">
-    <button class="btn blue" id="submit">提交</button>
+    <button class="btn blue" id="submit" style="display: none;">提交</button>
 </div>
+<!--是否可以编辑，1表示可以编辑，0表示不能编辑（已经评价过就不能够编辑）-->
+<input type="hidden" id="editable" value="0">
 <script src="js/mobile.pure.js"></script>
 <script src="js/common.js"></script>
 <script src="js/comment.js"></script>
