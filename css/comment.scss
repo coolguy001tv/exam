@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.satisfy{
+  height: 66px;
+  line-height: 66px;
+  margin-left:16px;
+  .title{
+    color:#222;
+    font-size: 18px;
+  }
+}
+.stars{
+  margin-top:4px;
+  margin-left:16px;
+}
+.star{
+  width: 20px;
+  height: 19px;
+  margin-right: 21px;
+  display: inline-block;
+  background: url("../image/star-d2.png") no-repeat;
+  background-size: contain;
+  &.active{
+    background: url("../image/star-d1.png") no-repeat;
+    background-size: contain;
+  }
+}
+#comment{
+  width: 100%;
+  height: 160px;
+  color:#979595;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+.commitWrapper{
+  padding: 0 16px;
+}
