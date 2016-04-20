@@ -59,7 +59,7 @@ var comment = {
         });
     },
     //提交按钮
-    'commit':function(){
+    commit:function(){
         $("#submit").tap(function(){
             var len = $(".star.active").length;
             if(!len){
